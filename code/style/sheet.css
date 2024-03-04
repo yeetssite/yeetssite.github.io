@@ -1,14 +1,41 @@
-a{
-  color: dark_blue;
-  transition: ease-out;                           
+/*
+  stylesheet created and formatted by Jacob hache: <https://github.com/YeetsupOnTheGit>
+*/
+
+/*########################
+  # GENERAL FORMAT/STYLE #
+  ########################*/
+
+a[href]{
+  color: #667dff;
+  transition: ease-out 0.1s;                           
   }
+a[href]:hover{
+    color: #052bff;
+    transition: ease-in 0.1s;
+    }
 
 body{ 
-     background-color:#00131f;
-     color: #f2faff;                
+     background-color:#00051f;
+     color: #d9f1ff;
+     font-family: Montserrat, hevetica neue, sans-serif;
+     font-weight: 500;
     }
 
 h1{
- font-weight: 900;
+ font-weight: 800;
  text-align: center;
+ font-family: open sans, ubuntu, verdana, sans serif; 
+ border-bottom: 2px solid #d9f1ff;
+ padding: 2px;
 }
+
+footer{
+    margin-top: 600px;
+    margin-bottom: 10px
+    padding: 5px;
+    border-top: 2px solid;
+    border-color: inherit;
+    text-align: center;
+    
+    }
