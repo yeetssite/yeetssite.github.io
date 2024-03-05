@@ -6,12 +6,12 @@ it uses the [google fonts](https://fonts.google.com "google fonts this way") lib
 
 ---
 ### colors used (in HEX):
-body(background): `#00051f`
-body(text): `#d9f1ff`
-links(not hovering): `#667dff`
-links(hovering): `#052bff`
+body(background): `#00051f`  
+body(text): `#d9f1ff`  
+links(not hovering): `#667dff`  
+links(hovering): `#052bff`  
 
 ---
 ### fonts used (google fonts):
-headings/titles: [open sans *(weight: 800 extra bold)*](https://fonts.google.com/specimen/Open+Sans)
-body/main font: [montserrat *(weight: 500 medium)*](https://fonts.google.com/specimen/Montserrat)
+headings/titles: [open sans *(weight: 800 extra bold)*](https://fonts.google.com/specimen/Open+Sans)  
+body/main font: [montserrat *(weight: 500 medium)*](https://fonts.google.com/specimen/Montserrat)  
