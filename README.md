@@ -24,6 +24,6 @@ body/main font: [montserrat *(weight: 500 medium)*](https://fonts.google.com/spe
 
 --- 
 ### Submit memes
-[via email](mailto:itsyeetsup@gmail.com)
+[via email](mailto:itsyeetsup@gmail.com?subject=I%20wanna%20submit%20a%20meme)
 
 [in the discord](https://discord.gg/BCfw8dbESV)
