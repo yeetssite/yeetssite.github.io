@@ -51,7 +51,7 @@ img{
   content:url(icons/imgs/20240306_125435.jpg);
 }
 .logo{
-  font-family: montserrat;
+  font-family: Montserrat, ubuntu, verdana, sans-serif;
   font-weight: 900;
   text-size: 32px;
 }
