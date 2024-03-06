@@ -21,3 +21,9 @@ links(hovering): `#052bff`
 headings/titles: [open sans *(weight: 800 extra bold)*](https://fonts.google.com/specimen/Open+Sans)  
 
 body/main font: [montserrat *(weight: 500 medium)*](https://fonts.google.com/specimen/Montserrat)  
+
+--- 
+### Submit memes
+[via email](mailto:itsyeetsup@gmail.com)
+
+[in the discord](https://discord.gg/BCfw8dbESV)
