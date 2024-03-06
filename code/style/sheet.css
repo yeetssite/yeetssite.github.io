@@ -42,5 +42,7 @@ footer{
 img{
   padding: 5px;
   border: 2px dotted inherit;
-  margin: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
