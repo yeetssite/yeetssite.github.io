@@ -24,7 +24,7 @@ body{
 
 h1{
  font-weight: 700;
- text-align: center;
+ text-align: left;
  font-family: open sans, ubuntu, verdana, sans serif; 
  border-bottom: 2px solid #d9f1ff;
  padding: 2px;
@@ -48,10 +48,17 @@ img{
 }
 
 .logo:before{
-  content:url(icons/imgs/20240306_125435.jpg);
+  content: url(icons/imgs/20240306_125435.jpg);
 }
 .logo{
   font-family: Montserrat, ubuntu, verdana, sans-serif;
-  font-weight: 900;
+  font-weight: 800;
   text-size: 32px;
+  text-align: center;
+}
+
+.logo:hover {
+  color: #00fbff;
+  text-size: 48px;
+  font-weight: 900;
 }
