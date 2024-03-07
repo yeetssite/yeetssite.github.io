@@ -41,7 +41,7 @@ footer{
     }
 img{
   padding: 5px;
-  border: 2px dotted inherit;
+  border: 1px solid white;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -60,4 +60,12 @@ img{
   text-size: 64px;
   font-weight: 900;
   transition: ease 0.1s;
+}
+
+video {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5px;
+  border: 1px solid white;
+  display: block;
 }
