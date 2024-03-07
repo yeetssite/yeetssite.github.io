@@ -56,6 +56,7 @@ img{
 
 .logo:hover {
   color: #00fbff;
-  text-size: 48px;
+  text-size: 64px;
   font-weight: 900;
+  transition: ease 0.1s;
 }
