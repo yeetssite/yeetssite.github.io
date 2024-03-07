@@ -52,7 +52,7 @@ img{
   font-weight: 800;
   text-size: 32px;
   text-align: center;
-  transition: ease 1s;
+  transition: ease 0.1s;
 }
 
 .logo:hover {
