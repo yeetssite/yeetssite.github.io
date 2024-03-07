@@ -47,9 +47,6 @@ img{
   margin-right: auto;
 }
 
-.logo:before{
-  content: url(icons/imgs/20240306_125435.jpg);
-}
 .logo{
   font-family: Montserrat, ubuntu, verdana, sans-serif;
   font-weight: 800;
