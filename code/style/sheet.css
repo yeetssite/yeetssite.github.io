@@ -75,16 +75,23 @@ video {
   display: block;
   text-align: center;
   border-radius: 2px;
-  background-color: #ff7e47;
-  color: #fcba03;
+  border: 1px solid #ffb69c;
+  background-color: #5e1b00;
+  color: #ffb69c;
 }
 
 .linkbar {
 background-color: #00020a;
+border-radius: 2px;
+border: 1px solid #c4c7ff;
+padding: 5px;  
+transition: ease-out 0.1s;
 }
 
 .linkbar:hover {
 background-color: #000314;
+border: 1px solid #8c92ff;
+transition: ease-in 0.1s;
 }
 
 .linkbar a{
