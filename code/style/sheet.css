@@ -8,7 +8,8 @@
 
 a[href]{
   color: #667dff;
-  transition: ease-out 0.1s;                           
+  transition: ease-out 0.1s;                 
+  text-decoration: none;
   }
 a[href]:hover{
     color: #052bff;
