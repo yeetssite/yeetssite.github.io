@@ -71,16 +71,20 @@ video {
 }
 
 .highvis {
-padding: none;
-display: block;
-text-align: center;
-border-radius: 2px;
-background-color: #fcba03;
-color: #ff7e47;
+  padding: none;
+  display: block;
+  text-align: center;
+  border-radius: 2px;
+  background-color: #ff7e47;
+  color: #fcba03;
 }
 
 .linkbar {
-background-color: #00093b;
+background-color: #00020a;
+}
+
+.linkbar:hover {
+background-color: #000314;
 }
 
 .linkbar a{
