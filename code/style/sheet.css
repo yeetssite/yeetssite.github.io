@@ -69,3 +69,25 @@ video {
   border: 1px solid white;
   display: block;
 }
+
+.highvis {
+margin-left: auto;
+margin-right: auto;
+border-radius: 2px;
+background-color: #fcba03;
+color: #ff7e47;
+}
+
+.linkbar {
+background-color: #00093b;
+}
+
+.linkbar a{
+  color: #c4c7ff;
+  transition: ease-out 0.1s;
+}
+
+.linkbar a:hover {
+  color: #8c92ff;
+  transition: ease-in 0.1s;
+}
