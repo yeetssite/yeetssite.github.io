@@ -81,25 +81,25 @@ video {
 }
 
 .linkbar {
-background-color: #00020a;
+background-color: #000314;
 border-radius: 2px;
-border: 1px solid #c4c7ff;
+border: 1px solid #8c92ff;
 padding: 5px;  
 transition: ease-out 0.1s;
 }
 
 .linkbar:hover {
-background-color: #000314;
-border: 1px solid #8c92ff;
+background-color: #00020a;
+border: 1px solid #c4c7ff;
 transition: ease-in 0.1s;
 }
 
 .linkbar a{
-  color: #c4c7ff;
+  color: #8c92ff;
   transition: ease-out 0.1s;
 }
 
 .linkbar a:hover {
-  color: #8c92ff;
+  color: #c4c7ff;
   transition: ease-in 0.1s;
 }
