@@ -100,8 +100,8 @@ video {
 }
 
 .bigfaterror{
-font-size: 128px;
-color: rgba(255, 181, 181, 0.8);
+font-size: 300px;
+color: rgba(255, 90, 90, 0.8);
 text-align: center;
 font-weight: 700;
 font-family: ubuntu mono, courier new, monospace;
