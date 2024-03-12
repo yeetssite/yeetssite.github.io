@@ -60,14 +60,14 @@ img{
   font-weight: 800;
   text-size: 32px;
   text-align: center;
-  transition: ease 0.1s;
+  transition: ease-out 0.1s;
 }
 
 .logo:hover {
   color: #00fbff;
-  text-size: 64px;
+  text-size: 48px;
   font-weight: 900;
-  transition: ease 0.1s;
+  transition: ease-in 0.1s;
 }
 
 video {
