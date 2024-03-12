@@ -88,6 +88,24 @@ video {
   color: #ffb69c;
 }
 
+.highviscode {
+  padding: none;
+  display: block;
+  text-align: center;
+  border-radius: 2px;
+  border: 1px solid #ffb69c;
+  background-color: #5e1b00;
+  color: #ffb69c;
+  font-family: ubuntu mono, courier new, monospace;
+}
+
+.bigfaterror{
+font-size: 64px;
+color: rgba(255, 181, 181, 0.8);
+text-align: center;
+font-weight: 700;
+}
+
 .linkbar {
 background-color: #000314;
 border-radius: 2px;
