@@ -7,11 +7,11 @@
   ########################*/
 
 @font-face {
-  font-family: 'Montserrat';
+  font-family: "san francisco medium";
   font-style: normal;
   font-weight: 100 900;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/montserrat/v26/JTUSjIg1_i6t8kCHKm459Wlhyw.woff2) format('truetype');
+  src: url(/Fonts/SF-Pro-Text-Medium.ttf) format('truetype');
 }
 
 a[href]{
@@ -34,7 +34,7 @@ body{
 h1{
  font-weight: 700;
  text-align: left;
- font-family: open sans, ubuntu, verdana, sans serif; 
+ font-family:"san francisco medium", open sans, ubuntu, verdana, sans serif; 
  border-bottom: 2px solid #d9f1ff;
  padding: 2px;
 }
