@@ -1,8 +1,4 @@
-<html>
-  <head>
-    <link ref="code/style/sheet.css" rel="stylesheet">
-      </head>
-</html>
+
 
 # Lol this is my website :)
 
@@ -16,7 +12,7 @@ you can read the [`how it's made™`](https://github.com/Yeetsup-Git/yeetsup-git
 ### colors used (in HEX):
 body(background): <code style="color:#00051f;">#00051f</code>
 
-body(text): `#d9f1ff`
+body(text): <code style="color:#d9f1ff;">#d9f1ff</code>
 
 links(not hovering): `#667dff`
 
