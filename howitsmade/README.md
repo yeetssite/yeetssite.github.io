@@ -14,13 +14,14 @@ you can read the [`how it's made™`](https://github.com/Yeetsup-Git/yeetsup-git
 
 <p>body(background): </p>
 
-<p style="color:#d9f1ff;">body(text): #d9f1ff</p>
+<p>body(text): #d9f1ff</p>
 
 <p>links(not hovering): #667dff</p>
 
 <p>links(hovering): `#052bff`  </p>
 </body>
 </html>
+
 ---
 ### fonts used (google fonts):
 headings/titles: [open sans *(weight: 800 extra bold)*](https://fonts.google.com/specimen/Open+Sans)  
