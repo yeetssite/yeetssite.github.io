@@ -14,7 +14,7 @@ you can read the [`how it's made™`](https://github.com/Yeetsup-Git/yeetsup-git
 
 ---
 ### colors used (in HEX):
-body(background): `#00051f`
+body(background): <code style="color:#00051f;">#00051f</code>
 
 body(text): `#d9f1ff`
 
