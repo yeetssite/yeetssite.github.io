@@ -136,7 +136,6 @@ transition: ease-in 0.1s;
 /*Only use OPERATOR MESSAGES for when you really fuk up*/
   padding: none;
   display: block;
-  text-align: center;
   border-radius: 2px;
   border: 1px solid #ffbaba;
   background-color: #210000;
