@@ -131,3 +131,15 @@ transition: ease-in 0.1s;
   color: #c4c7ff;
   transition: ease-in 0.1s;
 }
+
+.OPMESSAGE {
+/*Only use OPERATOR MESSAGES for when you really fuk up*/
+  padding: none;
+  display: block;
+  text-align: center;
+  border-radius: 2px;
+  border: 1px solid #ffbaba;
+  background-color: #210000;
+  color: #ffbaba;
+  font-family: ubuntu mono, courier new, monospace;
+}
