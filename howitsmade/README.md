@@ -10,9 +10,9 @@ you can read the [`how it's made™`](https://github.com/Yeetsup-Git/yeetsup-git
 
 ---
 ### colors used (in HEX):
-body(background): <p style="color:#00051f!important;">#00051f</p>
+body(background): <div style="color:#00051f!important;">#00051f</div>
 
-body(text): <p style="color:#d9f1ff!important;">#d9f1ff</p>
+body(text): <div style="color:#d9f1ff!important;">#d9f1ff</div>
 
 links(not hovering): `#667dff`
 
