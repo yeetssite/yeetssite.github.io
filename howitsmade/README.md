@@ -8,16 +8,19 @@ it uses the [google fonts](https://fonts.google.com "google fonts this way") lib
 
 you can read the [`how it's made™`](https://github.com/Yeetsup-Git/yeetsup-git.github.io/tree/main/how%20it's%20made%E2%84%A2) folder for more info.
 
----
-### colors used (in HEX):
-body(background): <div style="color:#00051f!important;">#00051f</div>
+<html>
+  <body>
+    <h3>colors used (in HEX):</h3>
 
-body(text): <div style="color:#d9f1ff!important;">#d9f1ff</div>
+<p>body(background): </p>
 
-links(not hovering): `#667dff`
+<p style="color:#d9f1ff;">body(text): #d9f1ff</p>
 
-links(hovering): `#052bff`  
+<p>links(not hovering): #667dff</p>
 
+<p>links(hovering): `#052bff`  </p>
+</body>
+</html>
 ---
 ### fonts used (google fonts):
 headings/titles: [open sans *(weight: 800 extra bold)*](https://fonts.google.com/specimen/Open+Sans)  
