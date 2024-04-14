@@ -7,7 +7,7 @@ this stinks, im outta here.
 
 ### Main sites  
 [`https://yeetssite.github.io`](https://yeetssite.github.io)  
-Main repo: it already exists, dum dum.  
+Main repo: browser search bar exists, dum dum.  
 Light edition: [`https://yeetsup-git.github.io`](https://yeetssite.github.io)  
 Light edition sauce (repo): [`https://github.com/yeetsup-git.github.io`](https://github.com/yeetsup-git.github.io)  
 
