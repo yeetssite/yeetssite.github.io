@@ -1,11 +1,11 @@
-# feet's site
+# Feet's Site
 
-this stinks, im outta here.
+This stinks, im outta here.
 <section id="sitemap">
 
-# site map
+# Site Map
 
-### Main sites  
+### Main Sites  
 [`https://yeetssite.github.io`](https://yeetssite.github.io)  
 Main repo: browser search bar exists, dum dum.  
 > You can also visit [my list](https://github.com/stars/yeetssite/lists/yeet-s-site).
@@ -16,7 +16,6 @@ Light edition sauce (repo): [`https://github.com/yeetsup-git.github.io`](https:/
 <section id="Memes+Shitposts">
 
 #### Memes and Shitposts
-
 Memes: [`https://yeetssite.github.io/memes/`](https://yeetssite.github.io/memes/)  
 Memes sauce: [`https://github.com/yeetssite/memes`](https://github.com/yeetssite/memes)  
 Memes light: [`https://yeetsup-git.github.io/dumbshi/memes.html`](https://yeetsup-git.github.io/dumbshi/memes.html)  
