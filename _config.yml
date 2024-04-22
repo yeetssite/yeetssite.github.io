@@ -24,7 +24,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   My name is peter griffin, no you can't 
   suck my dick, my name is peter griffin
   you crazy, fat, white chick!
-baseurl: "/balls" # the subpath of your site, e.g. /blog
+baseurl: "yeetssite.github.io" # the subpath of your site, e.g. /blog
 url: "https://yeetssite.github.io"
 github_username:  yeetsup-git
 twitter_username: yeetsuptwatter
