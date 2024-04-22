@@ -30,7 +30,6 @@ github_username:  yeetsup-git
 twitter_username: yeetsuptwatter
 
 # Build settings
-theme: minimal
 plugins:
   - jekyll-feed
 
