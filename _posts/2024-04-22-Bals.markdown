@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "The stank"
+title:  The stank
 date:   2024-04-22
 ---
 You stink
