@@ -1,3 +1,9 @@
+---
+title: Yeet's Shitty Software License v1.0
+permalink: /yssl-1.0
+layout: base
+---
+
 # Yeet's Shitty Software License v1.0  
 #### Copyright (c) 2024 Jacob "Yeetsup" Hache
 
