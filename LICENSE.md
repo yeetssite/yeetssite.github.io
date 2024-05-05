@@ -1,7 +1,7 @@
 ---
-title: Yeet's Shitty Software License v1.0
-permalink: /yssl-1.0
-layout: base
+title: "Yeet's Shitty Software License v1.0"
+permalink: /yssl-1.0/
+layout: home
 ---
 
 # Yeet's Shitty Software License v1.0  
