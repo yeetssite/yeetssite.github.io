@@ -1,3 +1,8 @@
+---
+permalink: /about-scripts/
+title: scripts
+layout: home
+---
 # scripts  
 My bash and other assorted scripts
 
