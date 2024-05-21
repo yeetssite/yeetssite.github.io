@@ -1,6 +1,6 @@
 ---
 title: Git README
-layout: page
+layout: default
 permalink: /gitREADME/
 ---
 

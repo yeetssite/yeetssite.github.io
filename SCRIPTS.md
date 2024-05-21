@@ -1,7 +1,7 @@
 ---
 permalink: /about-scripts/
 title: scripts
-layout: home
+layout: default
 ---
 # scripts  
 My bash and other assorted scripts
