@@ -6,16 +6,53 @@
   # GENERAL FORMAT/STYLE #
   ########################*/
 
-.posts{
-background-color: #00030f;
-color: #bcc3eb;
-border: 1px solid #bcc3eb;
-border-radius: 2px;
-padding: 2px;
+.posts
+{
+	background-color: 
+		#00030f
+		;
+	color: 
+		#bcc3eb
+		;
+	border: 
+		1px 
+		solid 
+		#bcc3eb
+		;
+	border-radius: 
+		2px
+		;
+	padding:
+		2px
+		;
 }
-.post.title{
-	color: #edfff5;
-	font-size: 24px;
+.posts.snippet{
+	background-color: 
+		#001f0d
+		;
+	color: 
+		#edfff5
+		;
+}
+.posts.snippet.title
+{
+	color: 
+		#edfff5
+		;
+	font-size: 
+		24px
+		;
+	font-weight: 
+		700
+		;
+	padding:
+		5px
+		;
+}
+.post.snippet.body
+{
+	padding: 
+		8px;
 }
 code,pre{
   background-color: #00030f;
