@@ -8,8 +8,12 @@ title: home
 <div class="posts">
   {% for post in site.posts %} 
   <div class="snippet">
+    <p>
     <a href="{{ post.url }}" class="title">{{ post.title }}</a> 
-    <p class="body">{{ post.excerpt }}</p>
+    <div class="body">
+    {{ post.excerpt }}
+    </div>
+    </p>
   </div> 
   {% endfor %} 
 </div>
