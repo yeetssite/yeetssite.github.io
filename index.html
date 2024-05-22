@@ -7,10 +7,10 @@ title: home
 ---
 <div class="posts">
   {% for post in site.posts %} 
-  <p>
-    <a href="{{ post.url }}" class="">{{ post.title }}</a> 
-    {{ post.excerpt }}
-  </p> 
+  <div class="snippet">
+    <a href="{{ post.url }}" class="title">{{ post.title }}</a> 
+    <p class="body">{{ post.excerpt }}</p>
+  </div> 
   {% endfor %} 
 </div>
 
