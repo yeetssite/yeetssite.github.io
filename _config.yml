@@ -1,4 +1,4 @@
 url: "https://yeetssite.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 title: "Yeet's site" # the name of your site, e.g. ACME Corp.
-excerpt-seperator: <!--more-->
+excerpt-seperator: "<!--more-->"
 
