@@ -1,7 +1,8 @@
 ---
 title: Jekyllified
-layout: post
+layout: default
 date: 2024-04-22
+excerpt_separator: <!--more-->
 ---
 ### Jekyllified
 
