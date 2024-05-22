@@ -14,13 +14,13 @@
 	border-radius: 2px;
 	padding: 2px;
 }
-.posts .snippet{
+.snippet{
 	background-color: #001f0d;
 	color: #edfff5;
 	margin: 5px;
 	border: 1px solid #edfff5;
 }
-.posts .snippet .title
+.snippet .title
 {
 	color: #edfff5;
 	font-size: 24px;
@@ -28,9 +28,9 @@
 	padding: 5px;
 	border-bottom: 1px solid #edfff5;
 }
-.post .snippet .body
+.snippet .body
 {
-	padding: 8px;
+	padding: 5px;
 }
 code,pre{
   background-color: #00030f;
