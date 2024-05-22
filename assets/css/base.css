@@ -6,6 +6,17 @@
   # GENERAL FORMAT/STYLE #
   ########################*/
 
+.posts{
+background-color: #00030f;
+color: #bcc3eb;
+border: 1px solid #bcc3eb;
+border-radius: 2px;
+padding: 2px;
+}
+.post.title{
+	color: #edfff5;
+	font-size: 24px;
+}
 code,pre{
   background-color: #00030f;
   font-family: 'Ubuntu mono', 'Courier new', cousine, monospace;
