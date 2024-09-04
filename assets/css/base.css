@@ -6,6 +6,27 @@
   # GENERAL FORMAT/STYLE #
   ########################*/
 
+/*Goofy RDR font*/
+@font-face {
+  font-family: redDeadFont;
+  src: url(/fonts/chineseRocksRegular.ttf);
+}
+
+.rdrTextNormal
+{
+	color: #FFFFFF;
+	-webkit-text-stroke: 2px black;
+	font-size: 15px;
+	font-family: redDeadFont;
+}
+.rdrTextRed
+{
+	color: #FF0000;
+        -webkit-text-stroke: 2px black;
+        font-size: 18px;
+        font-family: redDeadFont;
+}
+
 .posts
 {
 	background-color: #00030f;
