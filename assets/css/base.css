@@ -15,14 +15,12 @@
 .rdrTextNormal
 {
 	color: #FFFFFF;
-	-webkit-text-stroke: 2px black;
 	font-size: 15px;
 	font-family: redDeadFont;
 }
 .rdrTextRed
 {
 	color: #FF0000;
-        -webkit-text-stroke: 2px black;
         font-size: 18px;
         font-family: redDeadFont;
 }
