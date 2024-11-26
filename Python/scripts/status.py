@@ -11,6 +11,8 @@ soup = BeautifulSoup(r.content, 'html.parser')
 # Find paragraphs("p") using their IDs
 asciiFarts = soup.find('p', id= 'asciiArts')
 
+asciiFartsNames = soup.find('p', id='asciiArtsNames')
+
 crawlIDs = soup.find('p', id= 'crawlIDs')
 
 textPastas = soup.find('p', id= 'textPastas')
@@ -21,6 +23,11 @@ newestAscii = soup.find('p', id= 'newestAscii')
 print("Total Ascii arts:")
 for line in asciiFarts:
     print(line)
+
+print("\nAll Ascii Art Filenames:")
+for line in asciiFartsNames:
+    print(line)
+
 print("\nCrawl IDs:")
 for line in crawlIDs:
     print(line)
