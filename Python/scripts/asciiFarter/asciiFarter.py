@@ -156,7 +156,7 @@ elif "-t" in args or "--textpasta" in args:
 
 elif "-w" in args or "--whatsnew" in args:
     lineCount = 0
-    whatsnewMsg = urllib.request.openurl('https://yeetssite.github.io/Python/scripts/asciiFarter/README.txt')
+    whatsnewMsg = urllib.request.urlopen('https://yeetssite.github.io/Python/scripts/asciiFarter/README.txt')
     printWhatsnew = False
     for line in whatsnewMsg:
         line = line.decode('utf-8')
@@ -166,8 +166,13 @@ elif "-w" in args or "--whatsnew" in args:
         elif "==whatsnew.end==" in line:
             printWhatsnew = False
         if printWhatsnew:
-            sys.stdout.write(line)
-            sys.stdout.flush()
+            if "==whatsnew.start==" in line:
+                header = True
+            else:
+                header= False
+            if not header:
+                sys.stdout.write(line)
+                sys.stdout.flush()
         else:
             pass
 
