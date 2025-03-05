@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: green
 title:  The stank
 date:   2024-04-22
 ---
