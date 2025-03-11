@@ -151,13 +151,13 @@ background-color: #001403;
 border-radius: 2px;
 border: 1px solid #8cff92;
 padding: 5px;  
-transition: ease-out 0.1s;
+transition: linear(-0.10 25.0%, 0.25 85.0%, 1 100%) 0.5s;
 }
 
 .linkbar:hover {
 background-color: #000a02;
 border: 1px solid #c4ffc7;
-transition: ease-in 0.1s;
+transition: linear(-0.15 3.50%, 0.75 40.00%, 1 100.85%) 0.5s;
 }
 
 .linkbar a{
