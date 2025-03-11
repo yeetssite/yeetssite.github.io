@@ -12,15 +12,15 @@
   src: url(/fonts/chineseRocksRegular.ttf);
 }
 
-fuckingay
+.rdrtext
 {
 	color: #FFFFFF;
 	font-size: 15px;
 	font-family: redDeadFont;
 }
-asinhomosexual
+.rdrtextred
 {
-	color: #FF0000;
+	color: #DD0000;
         font-size: 18px;
         font-family: redDeadFont;
 }
