@@ -12,16 +12,16 @@
   src: url(/fonts/chineseRocksRegular.ttf);
 }
 
-.rdrTextNormal
+.rdrtext
 {
 	color: #FFFFFF;
-	font-size: 15px;
+	font-size: 18px;
 	font-family: redDeadFont;
 }
-.rdrTextRed
+.rdrtextred
 {
 	color: #FF0000;
-        font-size: 18px;
+        font-size: 20px;
         font-family: redDeadFont;
 }
 
