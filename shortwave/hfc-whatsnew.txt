@@ -2,5 +2,16 @@
 :Issued: 2025 Mar 14 1400 UTC
 # What's new page for hfcond <https://github.com/yeetssite/hfcond>
 # Written and issued by itsyeetsup(mangolover1899)
-There is literally nothing new, except for this feature.
-Check back in, in a bit!
+HFcond 1.3 brings a simple, yet important feature.
+
+.The "What's new" page
+The "What's new" page brings you updates about HFcond, right from the confort of
+wherever you're running HFcond from. To bring up the "What's new" page, simply use
+the "-w" or "--whatsnew" option when running HFcond.
+
+This page may be updated without notice, so remember to check in every once in a while!
+
+.Upcoming
+Upcoming features include:
+*  More options, such as more different ways to display different data
+*  An optional updater
