@@ -1,0 +1,7 @@
+:Product: HFCOND 1.3 - What's New
+:Issued: 2025 Mar 14 1400 UTC
+# What's new page for hfcond <https://github.com/yeetssite/hfcond>
+# Written and issued by itsyeetsup(mangolover1899)
+
+There is literally nothing new, except for this feature.
+Check back in, in a bit!
