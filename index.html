@@ -6,7 +6,8 @@ title: home
   {% for post in site.posts %} 
   <div class="snippet">
     <p>
-    <a href="{{ post.url }}" class="title">{{ post.title }}</a> 
+    <a href="{{ post.url }}" class="title">{{ post.title }}</a>
+    <div class="postDate">Posted {{ post.date }}</div>
     <div class="body">
     {{ post.excerpt }}
     </div>
