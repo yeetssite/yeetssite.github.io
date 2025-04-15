@@ -2,20 +2,38 @@
 :Issued: 2025 Mar 17 1800 UTC
 # What's new page for hfcond <https://github.com/yeetssite/hfcond>
 # Written and issued by itsyeetsup(mangolover1899)
-HFcond 1.3 brings a simple, yet important feature.
+.IMPORTANT!
+If you are seeing this message, please note that you are running a slightly
+outdated version of HFcond. Don't worry, though, because you don't HAVE to update 
+HFcond for it to work. You're just gonna be missing some features such as this page
+being updated for your version. 
 
-.The "What's new" page
-The "What's new" page brings you updates about HFcond, right from the confort of
-wherever you're running HFcond from. To bring up the "What's new" page, simply use
-the "-w" or "--whatsnew" option when running HFcond.
+.Why won't this page be updated anymore?
+Simple: this page has moved to a new URL 
+<https://yeetssite.github.io/hfcond/whatsnew.txt> to simplify development.
 
-This page may be updated without notice, so remember to check in every once in a while!
+.Updating
+Remember, you don't HAVE to update if you don't want to. Your version of HFcond 
+should still be able to get the Geophysical alert and other stuff from NOAA, unless
+they decide to change URLs and where that stuff's located.
 
-.Upcoming
-Upcoming features include:
-*  NOAA's 3-day Forecast <https://services.swpc.noaa.gov/text/3-day-forecast.txt>
-*  NOAA's Space Weather Advisory Outlook <https://services.swpc.noaa.gov/text/advisory-outlook.txt>
-*  Logging to text files
-*  Custom configuration
-*  An optional updater
-*  Quick condition summary(similar to NOAA's "current space weather conditions" header on their homepage)
+However, if you wanna update, simply grab an updated version from 
+<https://github.com/yeetssite/hfcond> and use it like you would this version.
+
+To check if your version is an updated one that will recieve updated "whatsnew"
+messages, run the program with the '-v' option (ex. your command would be something
+like 'hfcond -v'). Text like this will appear:
+
+~/$ hfcond version X.XXX
+
+The 'X.XX' is the version you are running. To receive new whatsnew
+messages, the version must be 1.031 or later. The last version of hfcond that will 
+show THIS message is 1.03. 
+
+
+.Copyright
+HFcond Copyleft (C) 2024-2025 itsyeetsup(mangolover1899)
+This program is free to distribute or modify. See LICENSE.txt in the root of this
+repo for more info.
+
+This document and everything in this git repository falls under that license.
