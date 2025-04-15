@@ -1,5 +1,5 @@
 :Product: HFCOND 1.3 - What's New
-:Issued: 2025 Mar 17 1800 UTC
+:Issued: 2025 Apr 15 1500 UTC
 # What's new page for hfcond <https://github.com/yeetssite/hfcond>
 # Written and issued by itsyeetsup(mangolover1899)
 .IMPORTANT!
