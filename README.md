@@ -1,3 +1,5 @@
+Before you ask why i apparently have 4 accounts on github, I dont. Two of them are old accounts I actually dont have access to, but theoretically anyone could contribute as by using the right git credentials(However, it doesnt matter as you still need valid github credentials and they aren't verified like my current accounts, *yeetssite* and *mangolover1899*.
+
 ---
 title: Git README
 layout: default
