@@ -5,6 +5,10 @@ from sys import stdout
 from sys import exit
 try:
     url=argv[1]
+    if 'https://' not in url:
+        if 'http://' not in url:
+            if 'ftp://' not in url:
+                url = str('https://'+url)
 except:
     print('webcat: No file URL specified')
     exit(1)
