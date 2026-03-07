@@ -10,7 +10,7 @@ try:
             if 'ftp://' not in url:
                 url = str('https://'+url)
 except:
-    print('webcat: No file URL specified')
+    print('[1;37;41mwebcat: No file URL specified[0m')
     exit(1)
 
 DISP_CONT = False
