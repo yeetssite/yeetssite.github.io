@@ -3,13 +3,35 @@ import traceback
 from sys import argv
 from sys import stdout
 from sys import exit
+version = 1.00
 try:
     url=argv[1]
-    if 'https://' not in url:
+    if url == '--help' or url == '-h':
+        print('WEBCAT HELP')
+        print('USAGE: webcat [ URL ]')
+        print('       webcat --help')
+        print('       webcat --version\a')
+        print('Webcat is like cat but for files hosted over the internet.')
+        print('Webcat doesnt feature all the features that cat does, its')
+        print('just a simple tool to get plain text files from a URL and')
+        print('print it in your terminal.\n')
+        print('webcat is not an actively developed project, use it at your')
+        print("own risk. It was developed because I'm sick of Firefox and")
+        print("Chrome's tendency to make it really annoying to properly")
+        print("view and download plain .TXT files and isn't one of my main")
+        print("projects, thus it will only be updated if needed and if I still")
+        print("feel like it. ~itsyeetsup(A.K.A. mangolover1899)\n")
+        print("Licensed under YSSL-1.0 as a part of my website. see")
+        print("< https://yeetssite.github.io/yssl-1.0/ >.")
+        exit(0)
+    elif url == '--version' or url == '-v':
+        print('webcat version '+str(version))
+        exit(0)
+    elif 'https://' not in url:
         if 'http://' not in url:
             if 'ftp://' not in url:
                 url = str('https://'+url)
-except:
+except IndexError:
     print('[1;37;41mwebcat: No file URL specified[0m')
     exit(1)
 
