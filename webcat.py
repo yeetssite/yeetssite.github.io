@@ -32,7 +32,8 @@ except Exception as err:
     elif "404: Not Found" in str(err):
         print('[41;37mwebcat: "'+url+'": (404) The requested file could not be found.[0m')
     else:
-        print('[41;37mwebcat: "'+url+'": There was an unknown issue opening this URL. Please check your internet connection and try again.[0m')
+        print('[41;37mwebcat: "'+url+'": There was an unknown issue opening this URL.')
+        print('webcat: Please check your internet connection and try again.[0m')
     exit(2)
 
 if DISP_CONT:
