@@ -14,16 +14,21 @@ DISP_CONT = False
 try:
     with request.urlopen(url) as file:
         if file.getcode() == 404:
-            print('webcat: '+url+': (404) The requested file could not be found.')
+            print('webcat: "'+url+'": (404) The requested file could not be found.')
             print('[1;30m([37mi[30m): Try checking your spelling. If the error persists, the file may have been moved or deleted.[0m')
             exit(1)
         else:
             file_contents = file.read().decode('UTF-8')
             DISP_CONT = True
 except Exception as err:
-    print('An exception occured while opening the URL:')
+    print('[1;41;37mAn exception occured while opening the URL:[49;31m\n')
     print(traceback.format_exc())
-    print('webcat: '+url+': There was an unknown issue opening this URL. Please check your internet connection and try again.')
+    if "unknown url type" in str(err):
+        print('[41;37mwebcat: "'+url+'": Not a valid URL.[0m')
+    elif "404: Not Found" in str(err):
+        print('[41;37mwebcat: "'+url+'": (404) The requested file could not be found.[0m')
+    else:
+        print('[41;37mwebcat: "'+url+'": There was an unknown issue opening this URL. Please check your internet connection and try again.[0m')
     exit(2)
 
 if DISP_CONT:
