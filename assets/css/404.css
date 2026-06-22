@@ -155,7 +155,7 @@ border: none;
 .not_found_error{
 background-color: rgba(142, 49, 0, 0.2);
 backdrop-filter: blur(8.5px);
-padding-bottom: 15px;
+padding: 5px;
 text-align: center;
 border-radius: 4 / 7;
 color: #ffb69c;
