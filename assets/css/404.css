@@ -148,7 +148,7 @@ border: none;
 }
 .not_found_error{
 background-image: url("../img/i_watched_janr_die.jpg");
-background-size: cover;
+background-size: contain;
 padding: none;
 display: block;
 text-align: center;
