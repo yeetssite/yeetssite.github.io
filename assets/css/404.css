@@ -340,6 +340,7 @@ background-color: rgba(142, 49, 0, 0.2);
 backdrop-filter: blur(8.5px);
 padding-bottom: 5px;
 height: 75px;
+width: 100%;
 text-align: center;
 border-radius: 5px / 7px;
 color: #ffb69c;
