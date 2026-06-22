@@ -130,7 +130,7 @@ video {
 }
 
 .highvis .h1{
-	border: none;
+	border-bottom: none;
 }
 
 .highviscode {
