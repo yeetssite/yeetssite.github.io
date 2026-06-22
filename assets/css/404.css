@@ -150,7 +150,6 @@ border: none;
 }
 .not_found_error{
 padding: none;
-display: block;
 text-align: center;
 border-radius: 2 / 4;
 color: #ffb69c;
