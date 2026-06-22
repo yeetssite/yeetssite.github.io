@@ -135,6 +135,11 @@ video {
 	border-bottom: none;
 }
 
+.highvis p{
+	padding-left: 5px;
+	font-family: ubuntu mono, courier new, monospace;
+}
+
 .highviscode {
   padding: none;
   display: block;
