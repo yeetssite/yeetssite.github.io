@@ -129,6 +129,10 @@ video {
   color: #ffb69c;
 }
 
+.highvis.h1{
+	border: none;
+}
+
 .highviscode {
   padding: none;
   display: block;
