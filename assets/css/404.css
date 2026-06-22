@@ -120,7 +120,7 @@ video {
 .highvis {
   background-image: url("../img/i_watched_janr_die.jpg");
   background-size: cover;
-  background-position: center;
+  background-position: center bottom;
   padding: none;
   padding-top: 50px;
   display: block;
