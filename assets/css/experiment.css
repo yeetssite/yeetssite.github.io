@@ -18,7 +18,7 @@
   transition: ease-in 0.1s;
   border: 2.0px solid #dc92ff;
   background-color: #0f0314;
-  background-image: url(./blacklung.jpg);
+  background-image: url(../img/i_watched_janr_die.jpg);
   background-size: cover;
   background-position: center;
   background-attachment: scroll;
@@ -256,6 +256,8 @@ footer{
     
     }
 
+/*Image window*/
+
 img{
   border: 2.0px solid #dc92ff;
   border-radius: 7px / 5px;
@@ -300,16 +302,60 @@ video {
   display: block;
 }
 
-.highvis {
+/*Error page-specific elements*/
+
+/*i watched janr die error pane*/
+
+.watched_janr_die {
+  background-image: url("../img/i_watched_janr_die.jpg");
+  background-size: 100% 100%;
+  background-repeat: none;
+  background-position: center bottom;
   padding: none;
+  padding-top: 50px;
   display: block;
-  text-align: center;
-  border-radius: 2px;
+  text-align: left;
+  border-radius: 7px / 5px;
   border: 1px solid #ffb69c;
   background-color: #5e1b00;
-  color: #ffb69c;
+  color: #aa3b00;
 }
 
+.watched_janr_die h1{
+	border-bottom: none;
+}
+
+.watched_janr_die p{
+	padding-left: 25px;
+	padding-bottom: 25px;
+	font-size: 26px;
+	font-family: ubuntu mono, courier new, monospace;
+}
+
+/*"not found" error message + quote overlay*/
+
+.not_found_error{
+background-color: rgba(142, 49, 0, 0.2);
+backdrop-filter: blur(8.5px);
+padding-bottom: 5px;
+height: 75px;
+text-align: center;
+border-radius: 5px / 7px;
+color: #ffb69c;
+border-top: 2px solid #ffb69c;
+font-family: ubuntu mono, courier new, monospace;
+}
+.not_found_error p{
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 1px;
+	font-size: 15px;
+}
+
+
+/*Deprecated/unused, idk why i even left this here*/
+/*
 .highviscode {
   padding: none;
   display: block;
@@ -329,3 +375,5 @@ font-weight: 700;
 font-family: ubuntu mono, courier new, monospace;
 border: none; 
 }
+*/
+
