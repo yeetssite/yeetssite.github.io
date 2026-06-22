@@ -55,11 +55,11 @@ a[href]:hover{
     }
 
 body{ 
-     background-color:#632200;
-     color: #ffd0b7;
+     background-color: #44000b;
+     color: #c63951;
      font-family: Montserrat, hevetica neue, sans-serif;
      font-weight: 500;
-    }
+   }
 
 h1{
  font-weight: 700;
