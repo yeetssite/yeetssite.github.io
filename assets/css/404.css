@@ -349,9 +349,7 @@ text-align: center;
 border-radius: 7px / 5px;
 color: #ffb69c;
 border-collapse: collapse;
-border-top: 2px solid #ffb69c;
-border-left: 2px solid #ffb69c;
-border-right: 2px solid #ffb69c;
+border: 2px solid #ffb69c;
 font-family: ubuntu mono, courier new, monospace;
 }
 .not_found_error p{
