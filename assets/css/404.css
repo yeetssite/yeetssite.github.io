@@ -310,6 +310,7 @@ video {
 .watched_janr_die {
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: -2px;
   background-image: url("../img/i_watched_janr_die.jpg");
   background-size: 100% 100%;
   background-repeat: none;
