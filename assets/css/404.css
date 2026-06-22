@@ -340,7 +340,7 @@ video {
 
 .not_found_error{
 margin-top: -2px;
-margin-bottom: 2px;
+margin-bottom: -2px;
 margin-left: -2px;
 background-color: rgba(142, 49, 0, 0.2);
 backdrop-filter: blur(8.5px);
