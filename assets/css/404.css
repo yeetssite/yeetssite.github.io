@@ -171,6 +171,10 @@ color: #ffb69c;
 border-top: 1px solid #ffb69c;
 font-family: ubuntu mono, courier new, monospace;
 }
+.not_found_error p{
+	padding: none;
+	font-size: 12px;
+}
 
 .linkbar {
 color: #8c92ff;
