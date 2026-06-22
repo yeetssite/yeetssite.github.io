@@ -172,6 +172,9 @@ border-top: 1px solid #ffb69c;
 font-family: ubuntu mono, courier new, monospace;
 }
 .not_found_error p{
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
 	padding: none;
 	font-size: 12px;
 }
