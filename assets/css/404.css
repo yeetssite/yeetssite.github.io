@@ -149,7 +149,7 @@ font-family: ubuntu mono, courier new, monospace;
 border: none; 
 }
 .not_found_error{
-background-color: rgba(142, 49, 0, 150);
+background-color: rgba(142, 49, 0, 0.8);
 backdrop-filter: blur(8.5px);
 padding: none;
 text-align: center;
