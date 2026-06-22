@@ -164,6 +164,7 @@ font-family: ubuntu mono, courier new, monospace;
 }
 
 .linkbar {
+color: #8c92ff;
 background-color: #000314;
 border-radius: 2px;
 border: 1px solid #8c92ff;
@@ -172,6 +173,7 @@ transition: linear(-0.10 25.0%, 0.25 85.0%, 1 100%) 0.5s;
 }
 
 .linkbar:hover {
+color: #c4c7ff;
 background-color: #00020a;
 border: 1px solid #c4c7ff;
 transition: linear(-0.15 3.50%, 0.75 40.00%, 1 100.85%) 0.5s;
