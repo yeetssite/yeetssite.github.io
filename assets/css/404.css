@@ -336,15 +336,19 @@ video {
 /*"not found" error message + quote overlay*/
 
 .not_found_error{
+margin-left: auto;
+margin-right: auto;
 background-color: rgba(142, 49, 0, 0.2);
 backdrop-filter: blur(8.5px);
 padding-bottom: 5px;
 height: 75px;
-width: 101%;
+width: 100%;
 text-align: center;
 border-radius: 5px / 7px;
 color: #ffb69c;
 border-top: 2px solid #ffb69c;
+border-left: 2px solid #ffb69c;
+border-right: 2px solid #ffb69c;
 font-family: ubuntu mono, courier new, monospace;
 }
 .not_found_error p{
