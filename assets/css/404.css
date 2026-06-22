@@ -118,6 +118,8 @@ video {
 }
 
 .highvis {
+  background-image: url("../img/i_watched_janr_die.jpg");
+  background-size: contain;
   padding: none;
   display: block;
   text-align: center;
@@ -147,8 +149,6 @@ font-family: ubuntu mono, courier new, monospace;
 border: none; 
 }
 .not_found_error{
-background-image: url("../img/i_watched_janr_die.jpg");
-background-size: contain;
 padding: none;
 display: block;
 text-align: center;
