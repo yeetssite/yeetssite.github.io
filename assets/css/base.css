@@ -314,6 +314,12 @@ video {
 	padding: 2px;
 }
 .snippet{
+  background: 
+  radial-gradient(circle,
+                  rgba(0, 31, 13, 1) 0%, 
+                  rgba(2, 43, 20, 1) 40%, 
+                  rgba(10, 64, 29, 1) 76%, 
+                  rgba(25, 94, 52, 1) 100%);
 	background-color: #001f0d;
 	color: #edfff5;
 	margin: 5px;
