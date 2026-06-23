@@ -303,6 +303,25 @@ video {
   display: block;
 }
 
+/*fontrs*/
+@font-face {
+  font-family: redDeadFont;
+  src: url(/fonts/chineseRocksRegular.ttf);
+}
+
+.rdrtext
+{
+	color: #FFFFFF;
+	font-size: 18px;
+	font-family: redDeadFont;
+}
+.rdrtextred
+{
+	color: #FF0000;
+        font-size: 20px;
+        font-family: redDeadFont;
+}
+
 /*Error page-specific elements*/
 
 /*i watched janr die error pane*/
