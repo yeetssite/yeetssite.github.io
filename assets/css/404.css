@@ -73,7 +73,7 @@
 .logo .logotext{
   border-bottom: none!important;
   padding: none;
-  font-size: 26px;
+  font-size: 28px;
   color: #c63951;
   transition: ease-in 0.1s;
   text-align: center;
@@ -82,13 +82,13 @@
 .logo .logotext:hover{
   color: #e87a8d;
   transition: ease-in 0.1s;
-  font-size: 28px;
+  font-size: 32px;
 }
 
 .logo .logotext:active{
   color: #c63951;
   transition: ease-in 0.1s;
-  font-size: 21px;
+  font-size: 23px;
 }}	
 	
 .logo:hover{
