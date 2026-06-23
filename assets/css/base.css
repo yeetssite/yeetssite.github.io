@@ -111,6 +111,7 @@ code,pre{
   background-color: #0f0306;
   font-family: 'Ubuntu Mono', 'Courier new', cousine, monospace;
   color: #dcc3eb;
+  overflow-x: auto;
   border: 1px solid #dcc3eb;
   border-radius: 2px;
   padding: 2px;
