@@ -329,6 +329,7 @@ video {
 .snippet .title
 {
   backdrop-filter: blur(6.7px); /*six seveeennnn 🤪🤪🤪*/
+  background-color: rgba(25, 94, 52, 0.5);
 	color: #edfff5;
 	font-size: 24px;
 	font-weight: 700;
