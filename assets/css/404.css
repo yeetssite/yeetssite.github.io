@@ -51,7 +51,7 @@
 .logo .logotext{
   border-bottom: none!important; 
   padding: none;
-  font-size: 22px;
+  font-size: 28px;
   color: #c63951;
   transition: ease-in 0.1s;
   text-align: center;
@@ -60,20 +60,20 @@
 .logo .logotext:hover{
   color: #e87a8d;
   transition: ease-in 0.1s;
-  font-size: 24px;
+  font-size: 30px;
 }
 
 .logo .logotext:active{
   color: #c63951;
   transition: ease-in 0.1s;
-  font-size: 17px;
+  font-size: 23px;
 }}
 
 @media only screen and (max-width: 640px) { /*large/modern phones*/
 .logo .logotext{
   border-bottom: none!important;
   padding: none;
-  font-size: 18px;
+  font-size: 26px;
   color: #c63951;
   transition: ease-in 0.1s;
   text-align: center;
@@ -82,13 +82,13 @@
 .logo .logotext:hover{
   color: #e87a8d;
   transition: ease-in 0.1s;
-  font-size: 20px;
+  font-size: 28px;
 }
 
 .logo .logotext:active{
   color: #c63951;
   transition: ease-in 0.1s;
-  font-size: 13px;
+  font-size: 21px;
 }}	
 	
 .logo:hover{
