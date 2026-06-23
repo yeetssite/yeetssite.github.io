@@ -51,48 +51,48 @@
 .logo .logotext{
   border-bottom: none!important; 
   padding: none;
-  font-size: 22px;
-  color: #8c92ff;
+  font-size: 28px;
+  color: #c63951;
   transition: ease-in 0.1s;
   text-align: center;
 }
 
 .logo .logotext:hover{
-  color: #c4c7ff;
+  color: #e87a8d;
   transition: ease-in 0.1s;
-  font-size: 24px;
+  font-size: 30px;
 }
 
 .logo .logotext:active{
-  color: #8c92ff;
+  color: #c63951;
   transition: ease-in 0.1s;
-  font-size: 17px;
+  font-size: 23px;
 }}
 
 @media only screen and (max-width: 640px) { /*large/modern phones*/
 .logo .logotext{
   border-bottom: none!important;
   padding: none;
-  font-size: 18px;
-  color: #8c92ff;
+  font-size: 28px;
+  color: #c63951;
   transition: ease-in 0.1s;
   text-align: center;
 }
 	
 .logo .logotext:hover{
-  color: #c4c7ff;
+  color: #e87a8d;
   transition: ease-in 0.1s;
-  font-size: 20px;
+  font-size: 32px;
 }
 
 .logo .logotext:active{
-  color: #8c92ff;
+  color: #c63951;
   transition: ease-in 0.1s;
-  font-size: 13px;
+  font-size: 23px;
 }}	
 	
 .logo:hover{
-  border: 3px solid #c4c7ff;
+  border: 3px solid #e87a8d;
   background-color: #06020a;
   border-radius: 9px / 7px;
   padding: 7px;
@@ -100,8 +100,8 @@
 }
 
 .logo:active{
-  background-color: #000314;
-  border: 2.0px solid #8c92ff;
+  background-color: #2d0007;
+  border: 2.0px solid #c63951;
   border-radius: 4px / 2px;
   padding: 2px;
   transition: ease-in 0.1s;
