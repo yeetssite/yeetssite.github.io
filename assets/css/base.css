@@ -52,19 +52,19 @@
   border-bottom: none!important; 
   padding: none;
   font-size: 28px;
-  color: #c63951;
+  color: #8c92ff;
   transition: ease-in 0.1s;
   text-align: center;
 }
 
 .logo .logotext:hover{
-  color: #e87a8d;
+  color: #c4c7ff;
   transition: ease-in 0.1s;
   font-size: 30px;
 }
 
 .logo .logotext:active{
-  color: #c63951;
+  color: #8c92ff;
   transition: ease-in 0.1s;
   font-size: 23px;
 }}
@@ -74,25 +74,25 @@
   border-bottom: none!important;
   padding: none;
   font-size: 28px;
-  color: #c63951;
+  color: #8c92ff;
   transition: ease-in 0.1s;
   text-align: center;
 }
 	
 .logo .logotext:hover{
-  color: #e87a8d;
+  color: #c4c7ff;
   transition: ease-in 0.1s;
   font-size: 32px;
 }
 
 .logo .logotext:active{
-  color: #c63951;
+  color: #8c92ff;
   transition: ease-in 0.1s;
   font-size: 23px;
 }}	
 	
 .logo:hover{
-  border: 3px solid #e87a8d;
+  border: 3px solid #c4c7ff;
   background-color: #06020a;
   border-radius: 9px / 7px;
   padding: 7px;
@@ -100,8 +100,8 @@
 }
 
 .logo:active{
-  background-color: #2d0007;
-  border: 2.0px solid #c63951;
+  background-color: #000314;
+  border: 2.0px solid #8c92ff;
   border-radius: 4px / 2px;
   padding: 2px;
   transition: ease-in 0.1s;
