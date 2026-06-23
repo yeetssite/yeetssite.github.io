@@ -308,6 +308,9 @@ video {
 .posts
 {
 	background-color: #00030f;
+	background-image: url(../img/moincraft2.jpg);
+	background-size: cover;
+	background-position: center;
 	color: #bcc3eb;
 	border: 2px solid #bcc3eb;
 	border-radius: 7px/5px;
