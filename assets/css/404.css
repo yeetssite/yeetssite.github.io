@@ -16,8 +16,8 @@
   position: relative;
   text-align: center!important;
   transition: ease-in 0.1s;
-  border: 2.0px solid #dc92ff;
-  background-color: #0f0314;
+  border: 2.0px solid #c63951;
+  background-color: #2d0007;
   background-image: url(../img/i_watched_janr_die.jpg);
   background-size: cover;
   background-position: center;
@@ -30,19 +30,19 @@
   border-bottom: none!important;
   padding: none;
   font-size: 32px;
-  color: #dc92ff;
+  color: #c63951;
   transition: ease-in 0.1s;
   text-align: center;
 }
 
 .logo .logotext:hover{
-  color: #dcc7ff;
+  color: #e87a8d;
   transition: ease-in 0.1s;
   font-size: 34px;
 }
 
 .logo .logotext:active{
-  color: #dc92ff;
+  color: #c63951;
   transition: ease-in 0.1s;
   font-size: 27px;
 }
@@ -52,19 +52,19 @@
   border-bottom: none!important; 
   padding: none;
   font-size: 22px;
-  color: #dc92ff;
+  color: #c63951;
   transition: ease-in 0.1s;
   text-align: center;
 }
 
 .logo .logotext:hover{
-  color: #dcc7ff;
+  color: #e87a8d;
   transition: ease-in 0.1s;
   font-size: 24px;
 }
 
 .logo .logotext:active{
-  color: #dc92ff;
+  color: #c63951;
   transition: ease-in 0.1s;
   font-size: 17px;
 }}
@@ -74,25 +74,25 @@
   border-bottom: none!important;
   padding: none;
   font-size: 18px;
-  color: #dc92ff;
+  color: #c63951;
   transition: ease-in 0.1s;
   text-align: center;
 }
 	
 .logo .logotext:hover{
-  color: #dcc7ff;
+  color: #e87a8d;
   transition: ease-in 0.1s;
   font-size: 20px;
 }
 
 .logo .logotext:active{
-  color: #dc92ff;
+  color: #c63951;
   transition: ease-in 0.1s;
   font-size: 13px;
 }}	
 	
 .logo:hover{
-  border: 3px solid #dcc7ff;
+  border: 3px solid #e87a8d;
   background-color: #06020a;
   border-radius: 9px / 7px;
   padding: 7px;
@@ -100,15 +100,15 @@
 }
 
 .logo:active{
-  background-color: #0f0314;
-  border: 2.0px solid #dc92ff;
+  background-color: #2d0007;
+  border: 2.0px solid #c63951;
   border-radius: 4px / 2px;
   padding: 2px;
   transition: ease-in 0.1s;
 }
 
 code,pre{
-  background-color: #0a030f;
+  background-color: #0f0306;
   font-family: 'Ubuntu Mono', 'Courier new', cousine, monospace;
   color: #dcc3eb;
   border: 1px solid #dcc3eb;
@@ -137,9 +137,9 @@ a[href]:active{
 
 /*My dumbass forgot to paste the linkbar in after cutting it*/
 .linkbar {
-background-color: #0f0314;
+background-color: #2d0007;
 border-radius: 7px / 5px;
-border: 2.0px solid #dc92ff;
+border: 2.0px solid #c63951;
 padding-bottom: none;
 padding: 5px;
 text-align: center;
@@ -148,23 +148,23 @@ transition: ease-out 0.1s;
 
 .linkbar:hover {
 background-color: #06020a;
-border: 3px solid #dcc7ff;
+border: 3px solid #e87a8d;
 border-radius: 9px / 7px;
 padding: 7px;
 transition: ease-in 0.1s;
 }
 
 .linkbar:hover:active {
-border: 2.0px solid #dc92ff;
-background-color: #0f0314;
+border: 2.0px solid #c63951;
+background-color: #2d0007;
 border-radius: 4px / 2px;
 transition: ease-in 0.1s;
 padding: 2px;
 }
 
 .linkbar:active {
-border: 2.0px solid #dc92ff;
-background-color: #0f0314;
+border: 2.0px solid #c63951;
+background-color: #2d0007;
 border-radius: 4px / 2px;
 transition: ease-in 0.1s;
 padding: 2px;
@@ -195,18 +195,18 @@ margin-top: 0px;
 
 .linkbar a{
   font-family: "Montserrat", "Ubuntu", "Poppins", "Verdana", sans-serif;
-  color: #dc92ff;
+  color: #c63951;
   transition: ease-in 0.1s;
 }
 
 .linkbar a:hover {
-  color: #dcc7ff;
+  color: #e87a8d;
   font-size: 18px;
   transition: ease-in 0.1s;
 }
 
 .linkbar a:active {
-  color: #dc92ff;
+  color: #c63951;
   font-size: 12px;
   transition: ease-in 0.1s;
 }
@@ -260,7 +260,7 @@ footer{
 /*Image window*/
 
 img{
-  border: 2.0px solid #dc92ff;
+  border: 2.0px solid #c63951;
   border-radius: 7px / 5px;
   width: auto;
   height: auto;
@@ -274,14 +274,14 @@ img{
 
 img:hover{
   transform: scale(1.05);
-  border: 3px solid #dcc7ff;
+  border: 3px solid #e87a8d;
   border-radius: 9px / 7px;
   transition: ease-in 0.05s;
 }
 
 img:active{
    transform: scale(0.90);
-   border: 2.0px solid #dc92ff;
+   border: 2.0px solid #c63951;
    border-radius: 4px / 2px;
    transition: ease-in 0.05s;
 
@@ -289,7 +289,7 @@ img:active{
 
 img:hover:active{
    transform: scale(0.90);
-   border: 2.0px solid #dc92ff;
+   border: 2.0px solid #c63951;
    border-radius: 4px / 2px;
    transition: ease-in 0.05s;
 
