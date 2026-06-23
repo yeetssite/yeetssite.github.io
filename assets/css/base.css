@@ -312,7 +312,7 @@ video {
 	border: 2px solid #bcc3eb;
 	border-radius: 7px/5px;
 	padding: 2px;
-  padding-top: 5px;
+  padding-top: 10px;
 }
 .snippet{
   background: 
@@ -325,6 +325,7 @@ video {
 	color: #edfff5;
 	margin: 5px;
   margin-top: -2px;
+  margin-bottom: 2px;
 	border: 2px solid #edfff5;
 	border-radius: 5px / 7px;
   
