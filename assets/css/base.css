@@ -329,6 +329,13 @@ video {
 	margin-right: auto;
 	margin-left: auto;
 }
+
+.title a{
+	color: #edfff5;
+        font-size: 24px;
+        font-weight: 700;
+}
+
 .snippet .body
 {
 	padding: 5px;
