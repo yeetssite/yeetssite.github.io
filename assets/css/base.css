@@ -326,6 +326,7 @@ video {
 	font-weight: 700;
 	padding: 5px;
 	border-bottom: 2px solid #edfff5;
+	padding-right: 75%;
 }
 .snippet .body
 {
