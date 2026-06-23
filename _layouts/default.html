@@ -20,9 +20,14 @@
 	</head>
 	<body>
 		<header>                                                                                                                                                                                                                      
-			<h1 class="logo" id="timelogo">{{ site.title }}</h1>                                                                                                                                
-			<p class="linkbar"><a href="https://github.com/yeetssite/yeetssite.github.io">github</a> | <a href="https://yeetssite.github.io">home</a> | <a href="https://yeetssite.github.io/memes/">memes</a> | <a href="mailto:itsyeetsup@gmail.com?subject=I%20wanna%20submit%20a%20meme">submit a meme</a> | <a href="https://yeetssite.github.io/sw/">shortwave</a></p>
-
+			<div class="logo">
+				<h1 class="logotext">{{ page.title }} | {{ site.title}}</h1>			
+			</div>
+			<div class="linkbar_div" id="linkbar_div_top">
+	                <nav>
+			<div class="linkbar"><a href="https://github.com/yeetssite">Github</a> | <a href="https://yeetssite.github.io">home</a> | <a href="https://yeetssite.github.io/memes/"> memes </a> | <a href="mailto:itsyeetsup@gmail.com?subject=I%20wanna%20submit%20a%20meme"> submit a meme</a> | <a href="https://yeetssite.github.io/sw/">shortwave</a></div>
+			</nav>
+			</div>
 		</header>
     		{{ content }}
 		<footer>                                                                                                                                                                                                                       
