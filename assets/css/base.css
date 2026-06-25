@@ -307,10 +307,9 @@ video {
 /*Jekylls shitass posts*/
 .posts
 {
-	background-color: #00030f;
-	background-image: url(../img/moincraft2.jpg);
-	background-size: cover;
-	background-position: center;
+  background-color: #00030f;
+  background: radial-gradient(circle,rgba(0, 3, 15, 1) 0%, rgba(9, 6, 56, 1) 40%, rgba(34, 18, 94, 1) 76%, rgba(82, 39, 150, 1) 100%);
+  backdrop-filter: blur(2px);
 	color: #bcc3eb;
 	border: 2px solid #bcc3eb;
 	border-radius: 7px/5px;
@@ -321,9 +320,10 @@ video {
   background: 
   radial-gradient(circle,
                   rgba(0, 31, 13, 1) 0%, 
-                  rgba(2, 43, 20, 1) 40%, 
-                  rgba(10, 64, 29, 1) 76%, 
-                  rgba(25, 94, 52, 1) 100%);
+                  rgba(2, 43, 20, 0.8) 40%, 
+                  rgba(10, 64, 29, 0.5) 76%, 
+                  rgba(25, 94, 52, 0.2) 100%);
+  backdrop-filter: blur(0.5px);
 	background-color: #001f0d;
 	color: #edfff5;
 	margin: 5px;
