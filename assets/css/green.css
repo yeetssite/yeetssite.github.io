@@ -16,8 +16,8 @@
   position: relative;
   text-align: center!important;
   transition: ease-in 0.1s;
-  border: 2.0px solid #8c92ff;
-  background-color: #000314;
+  border: 2.0px solid #edfff5;
+  background-color: #001400;
   background-image: url(../img/moincraft.jpg);
   background-size: cover;
   background-position: center;
@@ -30,7 +30,7 @@
   border-bottom: none!important;
   padding: none;
   font-size: 32px;
-  color: #8c92ff;
+  color: #edfff5;
   transition: ease-in 0.1s;
   text-align: center;
 }
@@ -42,7 +42,7 @@
 }
 
 .logo .logotext:active{
-  color: #8c92ff;
+  color: #edfff5;
   transition: ease-in 0.1s;
   font-size: 27px;
 }
@@ -52,7 +52,7 @@
   border-bottom: none!important; 
   padding: none;
   font-size: 28px;
-  color: #8c92ff;
+  color: #edfff5;
   transition: ease-in 0.1s;
   text-align: center;
 }
@@ -64,7 +64,7 @@
 }
 
 .logo .logotext:active{
-  color: #8c92ff;
+  color: #edfff5;
   transition: ease-in 0.1s;
   font-size: 23px;
 }}
@@ -74,7 +74,7 @@
   border-bottom: none!important;
   padding: none;
   font-size: 28px;
-  color: #8c92ff;
+  color: #edfff5;
   transition: ease-in 0.1s;
   text-align: center;
 }
@@ -86,7 +86,7 @@
 }
 
 .logo .logotext:active{
-  color: #8c92ff;
+  color: #edfff5;
   transition: ease-in 0.1s;
   font-size: 23px;
 }}	
@@ -100,25 +100,25 @@
 }
 
 .logo:active{
-  background-color: #000314;
-  border: 2.0px solid #8c92ff;
+  background-color: #001400;
+  border: 2.0px solid #edfff5;
   border-radius: 4px / 2px;
   padding: 2px;
   transition: ease-in 0.1s;
 }
 
 code,pre{
-  background-color: #0f0306;
+  background-color: #030e0f;
   font-family: 'Ubuntu Mono', 'Courier new', cousine, monospace;
-  color: #dcc3eb;
+  color: #6a98e2;
   overflow-x: auto;
-  border: 1px solid #dcc3eb;
+  border: 1px solid #6a98e2;
   border-radius: 2px;
   padding: 2px;
 }
 
 a[href]{
-  color: #e17dff;
+  color: #7c9fff;
   transition: ease-out 0.1s;                 
   text-decoration: none;
   font-size: 14px;
@@ -138,9 +138,9 @@ a[href]:active{
 
 /*My dumbass forgot to paste the linkbar in after cutting it*/
 .linkbar {
-background-color: #000314;
+background-color: #001400;
 border-radius: 7px / 5px;
-border: 2.0px solid #8c92ff;
+border: 2.0px solid #edfff5;
 padding-bottom: none;
 padding: 5px;
 text-align: center;
@@ -156,16 +156,16 @@ transition: ease-in 0.1s;
 }
 
 .linkbar:hover:active {
-border: 2.0px solid #8c92ff;
-background-color: #000314;
+border: 2.0px solid #edfff5;
+background-color: #001400;
 border-radius: 4px / 2px;
 transition: ease-in 0.1s;
 padding: 2px;
 }
 
 .linkbar:active {
-border: 2.0px solid #8c92ff;
-background-color: #000314;
+border: 2.0px solid #edfff5;
+background-color: #001400;
 border-radius: 4px / 2px;
 transition: ease-in 0.1s;
 padding: 2px;
@@ -196,18 +196,18 @@ margin-top: 0px;
 
 .linkbar a{
   font-family: "Montserrat", "Ubuntu", "Poppins", "Verdana", sans-serif;
-  color: #8c92ff;
+  color: #edfff5;
   transition: ease-in 0.1s;
 }
 
 .linkbar a:hover {
-  color: #c4c7ff;
+  color: #c4ffd1;
   font-size: 18px;
   transition: ease-in 0.1s;
 }
 
 .linkbar a:active {
-  color: #8c92ff;
+  color: #edfff5;
   font-size: 12px;
   transition: ease-in 0.1s;
 }
@@ -224,10 +224,14 @@ pre code{
 
 
 body{ 
-     background-color: #00051f;
+     background-color: #001f0d;
      background-size: 2em;
-     background: linear-gradient(180deg,rgba(0, 5, 31, 1) 45%, rgba(74, 15, 89, 1) 96%);
-     color: #8c92ff;
+     background:  radial-gradient(circle,
+                  rgba(0, 31, 13, 1) 0%, 
+                  rgba(2, 43, 20, 1) 40%, 
+                  rgba(10, 64, 29, 1) 76%, 
+                  rgba(25, 94, 52, 1) 100%); 
+     color: #edfff5;
      font-family: "Montserrat", "Poppins", "Ubuntu", "hevetica neue", sans-serif;
      font-weight: 500;
      font-size: 14px;
@@ -261,7 +265,7 @@ footer{
 /*Image window*/
 
 img{
-  border: 2.0px solid #8c92ff;
+  border: 2.0px solid #edfff5;
   border-radius: 7px / 5px;
   width: auto;
   height: auto;
@@ -282,7 +286,7 @@ img:hover{
 
 img:active{
    transform: scale(0.90);
-   border: 2.0px solid #8c92ff;
+   border: 2.0px solid #edfff5;
    border-radius: 4px / 2px;
    transition: ease-in 0.05s;
 
@@ -290,7 +294,7 @@ img:active{
 
 img:hover:active{
    transform: scale(0.90);
-   border: 2.0px solid #8c92ff;
+   border: 2.0px solid #edfff5;
    border-radius: 4px / 2px;
    transition: ease-in 0.05s;
 
