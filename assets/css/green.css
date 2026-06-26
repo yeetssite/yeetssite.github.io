@@ -36,7 +36,7 @@
 }
 
 .logo .logotext:hover{
-  color: #c4c7ff;
+  color: #32ff62;
   transition: ease-in 0.1s;
   font-size: 34px;
 }
@@ -58,7 +58,7 @@
 }
 
 .logo .logotext:hover{
-  color: #c4c7ff;
+  color: #32ff62;
   transition: ease-in 0.1s;
   font-size: 30px;
 }
@@ -80,7 +80,7 @@
 }
 	
 .logo .logotext:hover{
-  color: #c4c7ff;
+  color: #32ff62;
   transition: ease-in 0.1s;
   font-size: 32px;
 }
@@ -92,8 +92,8 @@
 }}	
 	
 .logo:hover{
-  border: 3px solid #c4c7ff;
-  background-color: #06020a;
+  border: 3px solid #32ff62;
+  background-color: #020a02;
   border-radius: 9px / 7px;
   padding: 7px;
   transition: ease-in 0.1s;
@@ -148,8 +148,8 @@ transition: ease-out 0.1s;
 }
 
 .linkbar:hover {
-background-color: #06020a;
-border: 3px solid #c4c7ff;
+background-color: #020a02;
+border: 3px solid #32ff62;
 border-radius: 9px / 7px;
 padding: 7px;
 transition: ease-in 0.1s;
@@ -279,7 +279,7 @@ img{
 
 img:hover{
   transform: scale(1.05);
-  border: 3px solid #c4c7ff;
+  border: 3px solid #32ff62;
   border-radius: 9px / 7px;
   transition: ease-in 0.05s;
 }
