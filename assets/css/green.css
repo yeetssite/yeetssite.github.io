@@ -30,7 +30,7 @@
   border-bottom: none!important;
   padding: none;
   font-size: 32px;
-  color: #edfff5;
+  color: #abc9b8;
   transition: ease-in 0.1s;
   text-align: center;
 }
@@ -42,7 +42,7 @@
 }
 
 .logo .logotext:active{
-  color: #edfff5;
+  color: #abc9b8;
   transition: ease-in 0.1s;
   font-size: 27px;
 }
@@ -52,7 +52,7 @@
   border-bottom: none!important; 
   padding: none;
   font-size: 28px;
-  color: #edfff5;
+  color: #abc9b8;
   transition: ease-in 0.1s;
   text-align: center;
 }
@@ -64,7 +64,7 @@
 }
 
 .logo .logotext:active{
-  color: #edfff5;
+  color: #abc9b8;
   transition: ease-in 0.1s;
   font-size: 23px;
 }}
@@ -74,7 +74,7 @@
   border-bottom: none!important;
   padding: none;
   font-size: 28px;
-  color: #edfff5;
+  color: #abc9b8;
   transition: ease-in 0.1s;
   text-align: center;
 }
@@ -86,7 +86,7 @@
 }
 
 .logo .logotext:active{
-  color: #edfff5;
+  color: #abc9b8;
   transition: ease-in 0.1s;
   font-size: 23px;
 }}	
