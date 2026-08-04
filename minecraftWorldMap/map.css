@@ -1,0 +1,5 @@
+#map {
+	background: url("./map.bmp");
+	overflow: scroll;
+	image-rendering: pixelated;
+}
