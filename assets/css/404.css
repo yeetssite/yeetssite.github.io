@@ -24,6 +24,7 @@
   background-attachment: scroll;
   border-radius: 7px / 5px;
   padding: 5px;
+  width: 100%;
 }
 
 .logo .logotext{
