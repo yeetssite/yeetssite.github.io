@@ -14,6 +14,6 @@ console.log(randSong);
 // Keeping it simple by copying some basic code that wraps 
 // an audio source into a function callable by a button
 function playMusic() {
-	var music = new Audio("../sounds/concussion.mp3");
+	var music = new Audio(randSong);
 	music.play();
 }
