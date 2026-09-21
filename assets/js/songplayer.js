@@ -27,7 +27,7 @@ function musicButton(){
 	if (music.paused !== true){
 		music.pause();
 		initMusic();
-	else{
+	}else{
 		music.play();
 	    }
 
