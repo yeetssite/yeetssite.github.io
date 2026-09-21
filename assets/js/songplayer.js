@@ -12,20 +12,23 @@
 
 /*function song_randomizer*/
 
+function initMusic(){
 	const songs = ["../sounds/concussion.mp3", "../sounds/away.mp3", "../sounds/higher_thinking.mp3"];
 	const randSongIndex = Math.floor(Math.random() * songs.length);
 	const randSong = songs[randSongIndex];
 	console.log("Randomly selected song:");
 	console.log(randSong);
-	
-
-function initMusic(){
-
-	var music = new Audio(randSong);
-	music.play();
+	music = new Audio(randSong);
 }
 
+initMusic();
 
 function musicButton(){
-	initMusic();
+	if (music.paused !== true){
+		music.pause();
+		initMusic();
+	else{
+		music.play();
+	    }
+
 }
