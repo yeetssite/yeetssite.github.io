@@ -12,6 +12,8 @@
 
 /*function song_randomizer*/
 
+/* Initialize music as an audio object*/
+
 function initMusic(){
 	const songs = ["../sounds/concussion.mp3", "../sounds/away.mp3", "../sounds/higher_thinking.mp3"];
 	const randSongIndex = Math.floor(Math.random() * songs.length);
@@ -22,7 +24,9 @@ function initMusic(){
 }
 
 initMusic();
+// Call function to initialize variables
 
+// Play music from the music button
 function musicButton(){
 	if (music.paused !== true){
 		music.pause();
@@ -32,3 +36,8 @@ function musicButton(){
 	    }
 
 }
+
+/* call button when script loads to autoplay music. 
+ * falls back to being called manually by an htmlbutton when autoplay isnt allowed.*/
+
+musicButton();
