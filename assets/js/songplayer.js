@@ -23,11 +23,10 @@ function song_randomizer(){
 function initMusic(){
 
 	var music = new Audio(song_randomizer);
-	return music;
+	music.play();
 }
 
-const song = initMusic();
 
 function musicButton(){
-	song.play();
-
+	initMusic();
+}
