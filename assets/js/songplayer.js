@@ -8,21 +8,20 @@
 
 // Keeping it simple by copying some basic code that wraps 
 // an audio source into a function callable by a button
-//
 
-function song_randomizer(){
+
+/*function song_randomizer*/
 
 	const songs = ["../sounds/concussion.mp3", "../sounds/away.mp3", "../sounds/higher_thinking.mp3"];
 	const randSongIndex = Math.floor(Math.random() * songs.length);
 	const randSong = songs[randSongIndex];
 	console.log("Randomly selected song:");
 	console.log(randSong);
-	return randSong;
-}
+	
 
 function initMusic(){
 
-	var music = new Audio(song_randomizer);
+	var music = new Audio(randSong);
 	music.play();
 }
 
