@@ -19,7 +19,7 @@ function initMusic(){
 	const randSongIndex = Math.floor(Math.random() * songs.length);
 	const randSong = songs[randSongIndex];
 
-	if (lastPlayed == randSong){
+	if (lastPlayed === randSong){
 		initMusic();
 	}
 	lastPlayed = randSong;
