@@ -14,6 +14,8 @@
 
 /* Initialize music as an audio object*/
 
+var lastPlayed;
+
 function initMusic(){
 	const songs = ["/assets/sounds/concussion.mp3", "/assets/sounds/away.mp3", "/assets/sounds/higher_thinking.mp3"];
 	const randSongIndex = Math.floor(Math.random() * songs.length);
