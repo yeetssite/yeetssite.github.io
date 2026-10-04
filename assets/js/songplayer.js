@@ -18,6 +18,11 @@ function initMusic(){
 	const songs = ["/assets/sounds/concussion.mp3", "/assets/sounds/away.mp3", "/assets/sounds/higher_thinking.mp3"];
 	const randSongIndex = Math.floor(Math.random() * songs.length);
 	const randSong = songs[randSongIndex];
+	if (lastPlayed === randSong){
+		initMusic();}
+	else{
+		lastPlayed = randSong;
+	}
 	console.log("Randomly selected song:");
 	console.log(randSong);
 	music = new Audio(randSong);
@@ -30,6 +35,7 @@ initMusic();
 function musicButton(){
 	if (music.paused !== true){
 		music.pause();
+		last_played = music;
 		initMusic();
 	}else{
 		music.play();
