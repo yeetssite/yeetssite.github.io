@@ -23,7 +23,6 @@ function initMusic(){
 
 	if (lastPlayed === randSong){
 		initMusic();
-		lastPlayed = randSong;
 	}
 	else{
 		lastPlayed = randSong;
