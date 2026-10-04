@@ -21,8 +21,11 @@ function initMusic(){
 
 	if (lastPlayed === randSong){
 		initMusic();
+		lastPlayed = randSong;
 	}
-	lastPlayed = randSong;
+	else{
+		lastPlayed = randSong;
+	}
 	console.log("Randomly selected song:");
 	console.log(randSong);
 	music = new Audio(randSong);
