@@ -33,7 +33,6 @@ function musicButton(){
 		initMusic();
 	}else{
 		music.play();
-		music.onended="musicButton()";
 	
 	    }
 
@@ -45,3 +44,7 @@ function musicButton(){
 
 musicButton();
 
+music.onended=function(){
+	initMusic();
+	musicButton();
+}
