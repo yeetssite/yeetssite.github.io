@@ -33,11 +33,15 @@ function musicButton(){
 		initMusic();
 	}else{
 		music.play();
+		music.onended=musicButton();
+	
 	    }
 
 }
+
 
 /* call button when script loads to autoplay music. 
  * falls back to being called manually by an htmlbutton when autoplay isnt allowed.*/
 
 musicButton();
+
